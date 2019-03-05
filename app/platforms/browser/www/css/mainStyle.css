@@ -1,0 +1,34 @@
+body, html{
+    height: 100%;
+}
+h1,h2{
+    font-family: "Cambria";
+    color: pink;
+}
+button{
+    background-color: aliceblue !important;
+}
+
+#beforeLogin, #loginPage, #signinPage, #mainPage, #newExpensePage, #listOfExpensesPage{
+    height: 100%;
+    background-image: url("../img/temp.jpg");
+    background-position: center; 
+    background-repeat: no-repeat;
+    float: left;
+}
+
+#saveExpenseBtn{
+    width: 40%;
+    float: right;
+}
+
+#try{
+    display: inline-flex;
+}
+.header{
+    text-align: right !important;
+}
+
+.table{
+    background-color: aliceblue;
+}
